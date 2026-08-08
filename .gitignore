@@ -1,0 +1,59 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.production
+**/.env
+**/.env.local
+**/.env.production
+
+# =========================
+# Python
+# =========================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual environment
+# =========================
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# =========================
+# ChromaDB
+# =========================
+backend/chromadb/
+backend/chroma_db/
+backend/.chroma/
+
+# =========================
+# Uploaded documents
+# =========================
+backend/uploads/
+
+# =========================
+# Next.js
+# =========================
+frontend/.next/
+frontend/node_modules/
+
+# =========================
+# Node
+# =========================
+node_modules/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
